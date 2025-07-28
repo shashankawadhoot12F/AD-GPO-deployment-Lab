@@ -4,7 +4,7 @@
 Simulate a small enterprise network by setting up a Windows Server domain controller, joining client machines, managing users/OUs, and enforcing GPOs.
 
 ## 🛠️ Tools Used
-- VirtualBox (Hypervisor)
+- VirtualBox (Oracle)
 - Windows Server 2022
 - Windows 10 (Client VMs)
 - Group Policy Management Console (GPMC)
@@ -13,12 +13,12 @@ Simulate a small enterprise network by setting up a Windows Server domain contro
 ## 🔄 Project Phases
 
 ### ✅ Phase 1: Environment Setup
-- Installed VirtualBox, created 1 DC VM + 2 Client VMs.
+- Installed VirtualBox, created 1 DC01 VM + 2 Client VMs.
 - Configured networking and static IPs.
 
 ### ✅ Phase 2: Domain Controller Configuration
 - Promoted Server to DC using AD DS.
-- Created `corp.local` domain.
+- Created `shashank.local` domain.
 
 ### ✅ Phase 3–6: Domain Join, User/OU Setup, GPOs
 - Joined clients to domain.
