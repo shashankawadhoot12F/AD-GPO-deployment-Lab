@@ -47,5 +47,5 @@ Refer to the `/docs` folder for all screenshots and configuration steps.
 ---
 
 👤 Author: Shashank Awadhoot  
-📧 Email: shashankawadhoot8967@gmail.com
+📧 Email: shashankawadhoot8967@gmail.com   
 🔗 LinkedIn: https://www.linkedin.com/in/shashank-awdhoot-139b06225/
