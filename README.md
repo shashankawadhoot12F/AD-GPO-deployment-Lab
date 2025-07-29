@@ -38,8 +38,10 @@ Simulate a small enterprise network by setting up a Windows Server domain contro
 ## 📷 Screenshots
 - [x] Domain Controller Setup
 ![DC Setup](docs/dc-setup.JPG)
+
 - [x] OU/User/Group Creation
 ![DC Setup](docs/OU-structure.JPG)
+
 - [x] GPO Implemented for client machines
 ![DC Setup](docs/desktopwallpaper-GPO_alicehr.JPG)
 
