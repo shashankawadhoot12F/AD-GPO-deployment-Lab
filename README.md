@@ -17,6 +17,7 @@ Simulate a small enterprise network by setting up a Windows Server domain contro
 - Configured networking and static IPs.
 
 ### ✅ Phase 2: Domain Controller Configuration
+![DC Setup](docs/dc-setup.JPG)
 - Promoted Server to DC using AD DS.
 - Created `shashank.local` domain.
 
