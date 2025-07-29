@@ -32,7 +32,8 @@ Simulate a small enterprise network by setting up a Windows Server domain contro
 ![DC Setup](docs/GPO-settings.JPG)
 
 ### ✅ Phase 7: Validation & Documentation
-- Verified GPOs using `gpresult` and `rsop.msc`.
+- Verified GPOs using `gpresult` OR `rsop.msc`.
+![DC Setup](docs/rsop-output.jpeg)
 - Attached screenshots and documented structure.
 
 ## 📷 Screenshots
