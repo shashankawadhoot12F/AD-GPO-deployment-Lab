@@ -14,27 +14,34 @@ Simulate a small enterprise network by setting up a Windows Server domain contro
 
 ### ✅ Phase 1: Environment Setup
 - Installed VirtualBox, created 1 DC01 VM + 2 Client VMs.
+![DC Setup](docs/Phase1-EnvironmentSetup.jpeg)
 - Configured networking and static IPs.
 
+
 ### ✅ Phase 2: Domain Controller Configuration
-![DC Setup](docs/dc-setup.JPG)
 - Promoted Server to DC using AD DS.
 - Created `shashank.local` domain.
+![DC Setup](docs/AD_DHCP-setup.JPG)
 
 ### ✅ Phase 3–6: Domain Join, User/OU Setup, GPOs
 - Joined clients to domain.
+![DC Setup](docs/client-domain_join.JPG)
 - Created OUs (HR, IT, Finance), users, and security groups.
+![DC Setup](docs/User_creation.JPG)
 - Implemented GPOs: password policy, login restrictions, wallpaper setting, etc.
+![DC Setup](docs/GPO-settings.JPG)
 
 ### ✅ Phase 7: Validation & Documentation
 - Verified GPOs using `gpresult` and `rsop.msc`.
 - Attached screenshots and documented structure.
 
 ## 📷 Screenshots
-- [x] Domain Controller Setup  
-- [x] OU/User/Group Creation  
-- [x] GPO Settings  
-- [x] gpresult & rsop.msc Output  
+- [x] Domain Controller Setup
+![DC Setup](docs/dc-setup.JPG)
+- [x] OU/User/Group Creation
+![DC Setup](docs/OU-structure.JPG)
+- [x] GPO Implemented for client machines
+![DC Setup](docs/desktopwallpaper-GPO_alicehr.JPG)
 
 ## ✅ Outcome
 Hands-on experience with:
